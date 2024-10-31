@@ -19,13 +19,17 @@ body {
 
 /* Configurações da barra de rolagem */
 ::-webkit-scrollbar {
-    width: 12px; /* Largura da barra de rolagem vertical */
-    height: 12px; /* Largura da barra de rolagem horizontal */
+    width: 12px;
+    /* Largura da barra de rolagem vertical */
+    height: 12px;
+    /* Largura da barra de rolagem horizontal */
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--azulClaro); /* Cor do polegar */
-    border-radius: 10px; /* Bordas arredondadas */
+    background: var(--azulClaro);
+    /* Cor do polegar */
+    border-radius: 10px;
+    /* Bordas arredondadas */
 }
 
 /* Configurações do Header */
@@ -107,7 +111,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 88vh;
+    height: 85vh;
 }
 
 .d_btn-main {
@@ -164,9 +168,9 @@ main {
 }
 
 #section_about {
-    background-image: url(../img/paralax.jpg);
+    background-image: url(../img/paralax3.jfif);
     background-attachment: fixed;
-    background-position: right center;
+    background-position: center center;
     /* Alinha a imagem à direita */
     background-repeat: no-repeat;
     background-size: cover;
@@ -176,7 +180,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 105vh;
 }
 
 .blur {
@@ -192,19 +196,17 @@ main {
     width: 80%;
     position: relative;
     z-index: 1;
+    margin: 0px;
 }
 
+/* Configurações da seção projetos */
 #section_projects {
-    background-image: url(../img/paralax2.jpg);
-    background-attachment: fixed;
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 96vh;
 }
 
 .carousel-container {
@@ -303,6 +305,7 @@ main {
     padding: 5px;
     text-align: center;
     font-size: 2.5em;
+    margin-top: 40px;
 }
 
 #h3_projects {
@@ -316,10 +319,3 @@ main {
     margin-top: 20px;
     border-bottom: 2px solid var(--azulClaro);
 }
-
-
-
-  
-  
-
-

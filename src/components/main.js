@@ -7,10 +7,10 @@ export default function Main() {
         <>
         <main>
            <h1 id="h1_main">
-               <MaquinaDeEscrever text="Olá, meu nome é"/>
-               <span id="span_main"> vinicius Juste</span>
+               <MaquinaDeEscrever text="Olá, meu nome é" esconderCursor={true}/>
+               <span id="span_main"><MaquinaDeEscrever text=" Vinicius Juste" delay={1600}/></span>
            </h1>
-           <p id="p_main">Desenvolvedor Front-End apaixonado por criar experiências digitais.</p>
+           <p id="p_main"><MaquinaDeEscrever text="Desenvolvedor Front-End" delay={2800}/></p>
 
            <div className="d_btn-main">
                <button className="btn_main" onClick={() => DowloadCV()}>Dowload CV</button>
