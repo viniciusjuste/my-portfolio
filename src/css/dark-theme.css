@@ -107,7 +107,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+    height: 88vh;
 }
 
 .d_btn-main {
@@ -193,5 +193,133 @@ main {
     position: relative;
     z-index: 1;
 }
+
+#section_projects {
+    background-image: url(../img/paralax2.jpg);
+    background-attachment: fixed;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-container {
+    position: relative;
+    width: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.card.active {
+    opacity: 1;
+    transform: translateX(0);
+    position: relative;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    margin: 0 0 0.5rem;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+}
+
+.card-text {
+    font-family: "Raleway", serif;
+    color: #ccc;
+    text-align: center;
+    text-indent: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(40px);
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 1px solid var(--azulClaro);
+    cursor: pointer;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-btn.prev {
+    left: -40px;
+}
+
+.carousel-btn.next {
+    right: -40px;
+}
+
+#h2_projects {
+    font-family: "Exo 2", sans-serif;
+    color: white;
+    margin: 0px;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#h3_projects {
+    font-family: "Exo 2", sans-serif;
+    color: white;
+    margin: 0px;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: left;
+    font-size: 1.5em;
+    margin-top: 20px;
+    border-bottom: 2px solid var(--azulClaro);
+}
+
+
+
+  
+  
 
 

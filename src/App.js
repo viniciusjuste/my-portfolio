@@ -1,9 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import './css/dark-theme.css';
 import Header from './components/header';
 import Main from './components/main';
 import Sobre from './components/about';
+import Projetos from './components/projects';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Header />
       <Main />
       <Sobre />
+      <Projetos />
     </>
   );
 }
