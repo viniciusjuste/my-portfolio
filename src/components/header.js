@@ -16,7 +16,7 @@ export default function Header() {
                     <a href="#">Habilidades</a>
                     <a href="#">Contato</a>
 
-                    <button id="dark_mode"><img src={Dark_mode} alt="Botão do modo claro"/></button>
+                    <button id="dark_mode"><img src={Light_mode} alt="Botão do modo claro"/></button>
                 </nav>
             </div>
         </header>

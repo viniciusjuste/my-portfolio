@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --corLaranja: #FF7F00;
+    --corPreta: #13131F;
+    --azulClaro: #1278fe;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: var(--corPreta);
+    overflow-y: auto;
+}
+
+/* Configurações da barra de rolagem */
+::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem vertical */
+    height: 12px; /* Largura da barra de rolagem horizontal */
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--azulClaro); /* Cor do polegar */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Configurações do Header */
+.box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1E3A5F;
+}
+
+#logo {
+    display: flex;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    margin: 10px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+a {
+    font-family: "Raleway", serif;
+    font-weight: bold;
+    padding: 15px 15px 0px 15px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    transition: 0.3s ease, text-shadow 0.3s ease;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: var(--corLaranja);
+    border-bottom: 2px solid var(--corLaranja);
+    text-shadow: 0 0 5px var(--corLaranja);
+}
+
+#dark_mode {
+    background-color: #3333338c;
+    border: 1px solid var(--corLaranja);
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+#dark_mode:hover {
+    background-color: #444444;
+}
+
+/* Configurações do Main */
+#h1_main {
+    font-family: "Exo 2", sans-serif;
+    font-size: 60px;
+    color: white;
+    margin: 0px;
+}
+
+#span_main {
+    color: #1278fe;
+}
+
+#p_main {
+    font-family: "Raleway", serif;
+    font-size: 25px;
+    color: #ccc;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.d_btn-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_main {
+    background-color: var(--azulClaro);
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.btn_main:hover {
+    background-color: transparent;
+    border: 2px solid var(--azulClaro);
+    cursor: pointer;
+}
+
+#btn_main_border {
+    background-color: transparent;
+    border: 2px solid var(--azulClaro);
+    color: white;
+    margin-left: 20px;
+}
+
+#btn_main_border:hover {
+    background-color: var(--azulClaro);
+    cursor: pointer;
+}
+
+/* Configurações do Sobre */
+.p_about {
+    font-family: "Raleway", serif;
+    font-size: 20px;
+    color: #ccc;
+    text-align: center;
+    text-indent: 20px;
+    width: 90%;
+}
+
+#h2_about {
+    font-family: "Exo 2", sans-serif;
+    color: white;
+    margin: 0px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+#section_about {
+    background-image: url(../img/paralax.jpg);
+    background-attachment: fixed;
+    background-position: right center;
+    /* Alinha a imagem à direita */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Mantém a imagem coberta */
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.blur {
+    background-color: rgba(0, 0, 0, 0.187);
+    backdrop-filter: blur(40px);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    position: relative;
+    z-index: 1;
+}
+
+
