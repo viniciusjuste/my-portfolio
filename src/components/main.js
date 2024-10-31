@@ -1,12 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import DowloadCV from "../js/dowloadCV";
-import MaquinaDeEscrever from "./components/maquinaDeEscrever";
+import MaquinaDeEscrever from "./maquinaDeEscrever";
 export default function Main() {
   
     return (
         <>
         <main>
-           <maquinaDeEscrever text="Desenvolvedor Front-End apaixonado por criar experiências digitais."/>
+           <h1 id="h1_main">
+               <MaquinaDeEscrever text="Olá, meu nome é"/>
+               <span id="span_main"> vinicius Juste</span>
+           </h1>
            <p id="p_main">Desenvolvedor Front-End apaixonado por criar experiências digitais.</p>
 
            <div className="d_btn-main">

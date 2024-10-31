@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import AnimationLetters from "../js/animations";
 export default function MaquinaDeEscrever(props) {
 
     const [text, setText] = useState('')
