@@ -27,7 +27,6 @@ export default function Projects() {
     return (
         <section id="section_projects">
             <h2 id="h2_projects">Projetos</h2>
-            <h3 id="h3_projects">Destaques</h3>
             <div className="carousel-container">
                 <button onClick={prevSlide} className="carousel-btn prev">❮</button>
                 

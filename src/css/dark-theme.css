@@ -308,14 +308,50 @@ main {
     margin-top: 40px;
 }
 
-#h3_projects {
+/* Configurações da seção skills */
+
+#h2_skills {
     font-family: "Exo 2", sans-serif;
     color: white;
     margin: 0px;
     margin-bottom: 5px;
     padding: 5px;
-    text-align: left;
-    font-size: 1.5em;
-    margin-top: 20px;
-    border-bottom: 2px solid var(--azulClaro);
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 40px;
 }
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .skill-card {
+    background-color: #2a2d3b;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .skill-card h3 {
+    color: var(--azulClaro);
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  
+  .skill-card p {
+    font-size: 1rem;
+    color: #ccc;
+  }
+
+  .skill-card img.skill-icon {
+    width: 50px; /* Ajustando o tamanho da imagem */
+    height: 50px; /* Ajustando o tamanho da imagem */
+    margin-bottom: 10px;
+  }
