@@ -91,7 +91,7 @@ export default function Skills() {
 
   return (
     <section id="section_skills">
-      <h2 id="h2_skills">Skills</h2>
+      <h2 id="h2_skills">Habilidades</h2>
       <div className="skills-container">
         {skills.map((skill) => (
           <div key={skill.id} className="skill-card">
