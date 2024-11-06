@@ -309,7 +309,6 @@ main {
 }
 
 /* Configurações da seção skills */
-
 #h2_skills {
     font-family: "Exo 2", sans-serif;
     color: white;
@@ -338,6 +337,11 @@ main {
     text-align: center;
     transition: transform 0.2s ease-in-out;
   }
+
+  .skill-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta o sombreamento para um efeito de profundidade */
+    background-color: #3a4053; /* Leve mudança de cor do fundo */
+}
   
   .skill-card h3 {
     color: var(--azulClaro);
