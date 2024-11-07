@@ -49,7 +49,7 @@ body {
 
 }
 
-nav {
+.nav-menu {
     display: flex;
     justify-content: flex-end;
     margin: 10px;
@@ -89,6 +89,7 @@ a:hover {
 /* Configurações do Main */
 #h1_main {
     font-family: "Exo 2", sans-serif;
+    text-align: center;
     font-size: 60px;
     color: white;
     margin: 0px;

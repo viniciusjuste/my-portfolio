@@ -1,5 +1,6 @@
 import './App.css';
 import './css/dark-theme.css';
+import './css/mobile.css';
 import Header from './components/header';
 import Main from './components/Main';
 import Sobre from './components/about';
