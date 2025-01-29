@@ -225,14 +225,8 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     position: absolute;
-    opacity: 0;
-    transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
-.card.active {
     opacity: 1;
-    transform: translateX(0);
-    position: relative;
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .card-img-top {
@@ -259,6 +253,25 @@ main {
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(40px);
 }
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 20rem;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
 
 .btn {
     display: inline-block;
@@ -334,6 +347,7 @@ main {
     border-radius: 10px;
     padding: 20px;
     max-width: 200px;
+    height: 15rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.2s ease-in-out;
@@ -359,4 +373,20 @@ main {
     width: 50px; /* Ajustando o tamanho da imagem */
     height: 50px; /* Ajustando o tamanho da imagem */
     margin-bottom: 10px;
+  }
+
+ 
+  .skills-container .swiper {
+    width: 240px;
+    height: 320px;
+  }
+  
+  .skills-container .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
   }
